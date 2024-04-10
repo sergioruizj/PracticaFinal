@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class Individuo{
+- ID: int
+- Generacion: int
+- TurnosDeVida: int
+- ProbabilidadReproduccion: double
+- ProbabilidadClonacion: double
+- ProbabilidadMuerte: double
+- Tipo: int
+- Acciones: Cola<<int>>
+- ArbolGenealógico: ArbolBinario<<int>>
++ ConsumirElementos
+}
+
+@enduml
