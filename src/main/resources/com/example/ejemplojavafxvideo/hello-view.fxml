@@ -8,7 +8,6 @@
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-   <AnchorPane prefHeight="200.0" prefWidth="200.0" />
 
     <Label fx:id="welcomeText" text="Sin inicializar" />
     <Button onAction="#onHelloButtonClick" text="Hello!" />
