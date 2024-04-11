@@ -1,4 +1,4 @@
-package EstructurasDeDatos;
+package com.example.EstructurasDeDatos;
 
 public class ArbolBinario<TipoDato> {
     private ElementoArbol<TipoDato> raiz;

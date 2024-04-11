@@ -1,4 +1,4 @@
-package EstructurasDeDatos;
+package com.example.EstructurasDeDatos;
 
 public class Cola<TipoDato> {
     ElementoCola<TipoDato> primero;
